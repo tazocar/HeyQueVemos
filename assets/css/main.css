@@ -1,36 +1,58 @@
 #navMobile {
-  background-color: #352A33;
+  background-color: #000000;
+  color:#FF5733;
 }
 
 /* Estilos de la primera seccion*/
 
 #imageMobil {
   width: 100%;
-  background-image: url("../images/doubt1.jpg");
+  background-image: url("../images/d.jpg");
   background-size: cover;
   height: 40em;
 }
-
+/*
 #imageLaptop {
+  width: 100%;
+  background-image: url("../images/doubt.jpg");
+  background-size: cover;
+  height: 40em;
+}
+#imageLapto1 {
   width: 100%;
   background-image: url("../images/d.jpg");
   background-size: cover;
   height: 40em;
 }
+*/
+
+
 
 /* termino de los estilos de la primera seccion*/
 
 /* Estilos de la segunda seccion*/
 
-#secondSection {
 
-}
 #infomationMovie {
-background-color: #FF5733;
+  width: 100%;
+  background-image: url("../images/imageContenido2.jpg");
+  background-size: cover;
+  height: 45em;
+  color: #fff;
 }
 
-#imageMovie {
-  background-color: #352A33;
+#infomationMovie2 {
+  width: 100%;
+  background-image: url("../images/imageContenido1.jpg");
+  background-size: cover;
+  height: 40em;
+  margin-top: 0;
 }
-
+#infomationMovie2 {
+  width: 100%;
+  background-image: url("../images/imageContenido1.jpg");
+  background-size: cover;
+  height: 40em;
+  margin-top: 0;
+}
 /* termino de los estilos de la segunda seccion*/
