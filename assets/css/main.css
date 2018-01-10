@@ -1,15 +1,30 @@
 #navMobile {
-  background-color: #000000;
+  background-color: rgb(235, 51, 14);
   color:#FF5733;
 }
 
 /* Estilos de la primera seccion*/
+
+#firstSection {
+  background-color: #000;
+}
 
 #imageMobil {
   width: 100%;
   background-image: url("../images/d.jpg");
   background-size: cover;
   height: 40em;
+}
+
+.tituloOne {
+  font-family: 'Heebo', sans-serif;
+}
+.iconStar {
+  color:#FF5733;
+}
+
+.carousel {
+margin-top: -7em;
 }
 /*
 #imageLaptop {
@@ -35,22 +50,23 @@
 
 #infomationMovie {
   width: 100%;
-  background-image: url("../images/imageContenido2.jpg");
+  background-image: url("../images/imageContenido.jpg");
   background-size: cover;
-  height: 45em;
+  height: 40em;
   color: #fff;
+  opacity: 0,5;
 }
 
 #infomationMovie2 {
   width: 100%;
-  background-image: url("../images/imageContenido1.jpg");
+  background-image: url("../images/imageContenido2.jpg");
   background-size: cover;
   height: 40em;
   margin-top: 0;
 }
-#infomationMovie2 {
+#infomationMovie3 {
   width: 100%;
-  background-image: url("../images/imageContenido1.jpg");
+  background-image: url("../images/imageContenido2.jpg");
   background-size: cover;
   height: 40em;
   margin-top: 0;
