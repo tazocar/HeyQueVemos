@@ -1,0 +1,36 @@
+#navMobile {
+  background-color: #352A33;
+}
+
+/* Estilos de la primera seccion*/
+
+#imageMobil {
+  width: 100%;
+  background-image: url("../images/doubt1.jpg");
+  background-size: cover;
+  height: 40em;
+}
+
+#imageLaptop {
+  width: 100%;
+  background-image: url("../images/d.jpg");
+  background-size: cover;
+  height: 40em;
+}
+
+/* termino de los estilos de la primera seccion*/
+
+/* Estilos de la segunda seccion*/
+
+#secondSection {
+
+}
+#infomationMovie {
+background-color: #FF5733;
+}
+
+#imageMovie {
+  background-color: #352A33;
+}
+
+/* termino de los estilos de la segunda seccion*/
