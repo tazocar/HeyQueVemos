@@ -1,10 +1,10 @@
 $(document).ready(function(){
     $('.carousel').carousel();
-    $('#modal1').modal();
+    $('.modal').modal();
+    $(".button-collapse").sideNav();
 });
       
 (function (){ //iife una expresion de funcion invocada inmediatamente (function)
-  alert("hola");    
     const config = {
     apiKey: "AIzaSyD1gA2Rpy3DO0FGZfeyFaRmGEfIuN4FodQ",
     authDomain: "safe-go.firebaseapp.com",

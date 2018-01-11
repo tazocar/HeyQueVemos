@@ -14,25 +14,24 @@
 </head>
 <body>
   <nav>
-    <div class="nav-wrapper hide-on-large-only hide-on-med-and-up" id="navMobile">
-      <div class="">
-        <a href="#" class="brand-logo right">Logo</a>
-        <ul id="nav-mobile" class="">
-          <li class=""><a href="sass.html">Sass</a></li>
-          <li class=""><a href="badges.html">Components</a></li>
-          <li class=""><a href="collapsible.html">JavaScript</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="nav-wrapper hide-on-small-only" id="navMobile">
-      <div class="">
-       <a href="#" class="brand-logo right">Menu
-        <ul id="nav-mobile" class="">
-          <li class=""><a class="waves-effect waves-light btn modal-trigger" href="#modal1">hola</button>
-          <li class=""><a href="badges.html" id="btnSignUp">hola</a></li>
-          <li class=""><a href="collapsible.html">hola</a></li>
-        </ul>
-      </div>
+    <div class="nav-wrapper">
+      <!-- MENU VERSION DESKTOP (AGREGADO MENU HAMBURGUESA) -->
+      <a href="#!" class="brand-logo center"><span class="black-text">Hey-Peliculas!</span></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#modal1" class="modal-trigger">Iniciar Sesión</a></li>
+        <li><a href="#" id="btnSignUp">Registrase</a></li>
+        <li><a href="#">Notificaciones</a></li>
+        <li><a href="#">Compartir</a></li>
+      </ul>
+      <!-- MENU VERSION MOBILE -->
+      <ul class="side-nav blue-grey darken-4" id="mobile-demo">
+        <li><img src="assets/images/imageContenido2.jpg" class="user-avatar responsive-img circle" alt=""></li>
+        <li><a href="#"><span class="orange-text">Perfil</span></a></li>
+        <li><a href="#"><span class="orange-text">Vota Aquí!</span></a></li>
+        <li><a href="#"><span class="orange-text">Notificaciones</span></a></li>
+        <li><a href="#"><span class="orange-text">Compartir</span></a></li>
+      </ul>
     </div>
   </nav>
   <!--Modales-->
@@ -121,8 +120,7 @@
             <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
             <p>Ver los trailers de tus peliculas favoritas.</p>
             <p>Sumar puntos y canjearlos por fabulosos premios.</p>
-            <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a>
-            <a class="waves-effect waves-light btn" id="btnBox2">Ingresa</a>
+            <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a> y únete a la comunidad de expertos !
           </div>
         </div>
       </div>
@@ -137,8 +135,7 @@
         <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
         <p>Ver los trailers de tus peliculas favoritas.</p>
         <p>Sumar puntos y canjearlos por fabulosos premios.</p>
-        <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a>
-        <a class="waves-effect waves-light btn" id="btnBox2">Ingresa</a>
+        <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a> y únete a la comunidad de expertos !
       </div>
     </div>
   </section>

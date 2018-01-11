@@ -1,8 +1,14 @@
-#navMobile {
+/* estilos del nav*/  
+.nav-wrapper {
   background: linear-gradient(to bottom, rgb(235, 51, 14),#080809);
   color:#FF5733;
 }
 
+.user-avatar{
+  width: 20%;
+  margin: 3% 3% 0 3%;
+}
+/* Fin de los estilos del nava*/
 /* Estilos de la primera seccion*/
 
 #firstSection {
@@ -98,12 +104,6 @@ margin-top: -7em;
   background-color:rgb(235, 51, 14);
   color: #fff;
   margin-left: 2em;
-}
-
-#btnBox2 {
-  background-color:rgb(235, 51, 14);
-  color: #fff;
- margin-left: 6em;
 }
 
 
