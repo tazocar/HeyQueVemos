@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>QueVemos</title>
+  <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Heebo:400,700" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
@@ -27,8 +28,8 @@
       <div class="">
        <a href="#" class="brand-logo right">Menu
         <ul id="nav-mobile" class="">
-          <li class=""><a class="waves-effect waves-light btn modal-trigger"  href="#modal1">hola</button>
-          <li class=""><a href="badges.html">hola</a></li>
+          <li class=""><a class="waves-effect waves-light btn modal-trigger" href="#modal1">hola</button>
+          <li class=""><a href="badges.html" id="btnSignUp">hola</a></li>
           <li class=""><a href="collapsible.html">hola</a></li>
         </ul>
       </div>
@@ -42,12 +43,12 @@
           <div class="row">
             <div class="input-field col s6">
               <i class="material-icons prefix">account_circle</i>
-              <input id="icon_prefix" type="text" class="validate" id="txtEmail">
+              <input type="email" placeholder="Correo electronico" class="validate" id="txtEmail">
               <label for="icon_prefix">User</label>
             </div>
             <div class="input-field col s6">
               <i class="material-icons prefix">lock</i>
-              <input id="icon_lock" type="tel" class="validate" id="txtPassword">
+              <input type="password" class="validate" id="txtPassword">
               <label for="icon_lock">Paasword</label>
             </div>
           </div>
@@ -111,39 +112,38 @@
     <div class="row">
       <div class="col s6 m12 l12 hide-on-small-only" id="infomationMovie">
         <div class="row">
-        <div id="informationBox1">
-          <h2>Hey! Que Vemos?</h2>
-          <h3>La nueva App que te permite</h3>
-          <p> Ver tus peliculas favoritas a ti y tus amigos.</p>
-          <p> Crear tu grupo de amigos para seguerir tus pelicilas favoritas.</p>
-          <p>Ubicacion de los sitios donde proyectamos las peliculas ganadoras.</p>
-          <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
-          <p>Ver los trailers de tus peliculas favoritas.</p>
-          <p>Sumar puntos y canjearlos por fabulosos premios.</p>
-          <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a>
-          <a class="waves-effect waves-light btn" id="btnBox2">Ingresa</a>
+          <div id="informationBox1">
+            <h2>Hey! Que Vemos?</h2>
+            <h3>La nueva App que te permite</h3>
+            <p> Ver tus peliculas favoritas a ti y tus amigos.</p>
+            <p> Crear tu grupo de amigos para seguerir tus pelicilas favoritas.</p>
+            <p>Ubicacion de los sitios donde proyectamos las peliculas ganadoras.</p>
+            <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
+            <p>Ver los trailers de tus peliculas favoritas.</p>
+            <p>Sumar puntos y canjearlos por fabulosos premios.</p>
+            <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a>
+            <a class="waves-effect waves-light btn" id="btnBox2">Ingresa</a>
+          </div>
         </div>
-      </div>
-      </div>
       </div>
     </div>
     <div class="row hide-on-large-only">
-        <div id="informationBox2">
-          <h2>Hey! Que Vemos?</h2>
-          <h3>La nueva App que te permite</h3>
-          <p> Ver tus peliculas favoritas a ti y tus amigos.</p>
-          <p> Crear tu grupo de amigos para seguerir tus pelicilas favoritas.</p>
-          <p>Ubicacion de los sitios donde proyectamos las peliculas ganadoras.</p>
-          <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
-          <p>Ver los trailers de tus peliculas favoritas.</p>
-          <p>Sumar puntos y canjearlos por fabulosos premios.</p>
-          <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a>
-          <a class="waves-effect waves-light btn" id="btnBox2">Ingresa</a>
-        </div>
+      <div id="informationBox2">
+        <h2>Hey! Que Vemos?</h2>
+        <h3>La nueva App que te permite</h3>
+        <p> Ver tus peliculas favoritas a ti y tus amigos.</p>
+        <p> Crear tu grupo de amigos para seguerir tus pelicilas favoritas.</p>
+        <p>Ubicacion de los sitios donde proyectamos las peliculas ganadoras.</p>
+        <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
+        <p>Ver los trailers de tus peliculas favoritas.</p>
+        <p>Sumar puntos y canjearlos por fabulosos premios.</p>
+        <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a>
+        <a class="waves-effect waves-light btn" id="btnBox2">Ingresa</a>
       </div>
+    </div>
   </section>
   <!-- TERCERA SECCION En este seccion va el nuestro experto en movies ganador, el mapa-->
-  <section>
+  <section id="thirdSection">
     <div class="row">
       <div class="col s12 m4 l4"></div>
       <div class="col s12 m4 l4"></div>
@@ -151,9 +151,12 @@
           <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.170086624597!2d-70.60383335!3d-33.422135749999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512506818252" width="100%" height="300vh" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </div>
-
   </section>
-
+  <section id="fourthSection">
+    <h1>hola</h1>
+    <button type="button" id="btnVolver"></button>
+    <button type="button" id="btnSalir"></button>
+  </section>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="assets/js/materialize.min.js"></script>
   <script src="assets/js/app.js"></script>

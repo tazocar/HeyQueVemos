@@ -1,10 +1,11 @@
 $(document).ready(function(){
     $('.carousel').carousel();
-    $('.modal').modal();
+    $('#modal1').modal();
 });
       
 (function (){ //iife una expresion de funcion invocada inmediatamente (function)
-  const config = {
+  alert("hola");    
+    const config = {
     apiKey: "AIzaSyD1gA2Rpy3DO0FGZfeyFaRmGEfIuN4FodQ",
     authDomain: "safe-go.firebaseapp.com",
     databaseURL: "https://safe-go.firebaseio.com",
@@ -12,6 +13,7 @@ $(document).ready(function(){
     storageBucket: "safe-go.appspot.com",
     messagingSenderId: "342295071182"
 };
+
 firebase.initializeApp(config);
 
 //const: variable no va a cambiar , puedo agregar cosas // let: variable que si se puede cambiar
@@ -21,7 +23,6 @@ const txtPassword = document.getElementById('txtPassword');
 const btnLogin = document.getElementById('btnLogin');
 const btnSignUp = document.getElementById('btnSignUp');
 const btnSalir = document.getElementById('btnSalir');
-const hacerUnEnvio = document.getElementById('hacerUnEnvio');
 const btnVolver = document.getElementById('btnVolver');
 
 //agregando evento al btnLogin
@@ -36,10 +37,6 @@ btnLogin.addEventListener('click', e => {
 });
 
 
-hacerUnEnvio.addEventListener('click', e => {
-    $('#thirdSection').show();
-    $('#second').hide();
-});
 
 btnVolver.addEventListener('click', e => {
   $('#thirdSection').hide();
@@ -65,24 +62,24 @@ btnSalir.addEventListener('click', e => {
   firebase.auth().signOut();
 })
 
-btnSalir2.addEventListener('click', e => {
-  firebase.auth().signOut();
-})
-
 
 // ojo Firebase no verifica si el correo es verdadero o exiiste, debemos hacer un objeto aparte
 //agregando en tiempo real la autentificacion
 
 firebase.auth().onAuthStateChanged(firebaseUser => {
-  if(firebaseUser) {
-    $('.section-principal').hide();
-    $('#second').show();
-    if ($('#registrar').modal) $('#registrar').modal('hide'); 
+    if(firebaseUser) {
+    $('#firstSection').hide();
+    $('#secondSection').hide();
+    $('#thirdSection').hide();
+    $('#fourthSection').show();
+    if ($('.modal1').modal) $('#modal1').modal('close'); 
   } else {
-    $('.section-principal').show();
-    $('#second').hide();
+    $('#firstSection').show();
+    $('#secondSection').show();
+    $('#thirdSection').show();
+    $('#fourthSection').hide();
   }
-  $('#thirdSection').hide();
+ 
 });
 
-})
+}())
