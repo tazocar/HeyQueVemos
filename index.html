@@ -16,11 +16,11 @@
   <nav>
     <div class="nav-wrapper">
       <!-- MENU VERSION DESKTOP (AGREGADO MENU HAMBURGUESA) -->
-      <a href="#!" class="brand-logo center"><span class="black-text">Hey-Peliculas!</span></a>
+      <a href="#!" class="brand-logo center"><span class="black-text">Hey! Que vemos?</span></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="#modal1" class="modal-trigger">Iniciar Sesión</a></li>
-        <li><a href="#" id="btnSignUp">Registrase</a></li>
+        <li><a href="#" >Registrase</a></li>
         <li><a href="#">Notificaciones</a></li>
         <li><a href="#">Compartir</a></li>
       </ul>
@@ -35,6 +35,7 @@
     </div>
   </nav>
   <!--Modales-->
+  <!--Modal para el ingreso-->
   <div id="modal1" class="modal">
     <div class="modal-content">
       <div class="row">
@@ -56,6 +57,27 @@
       </div>  
     </div>
   </div>
+  <!--Modal para el registro-->
+  <div id="modalRegister" class="modal ">
+    <div class="modal-content">
+      <h5 class="center-align">Para completar tu registro, ingresa por favor los siguientes datos</h5>
+       <br>
+      <p>Nickname o Apodo de Usuario</p>
+      <input type="text" name="nickname" value="" placeholder="Escribe tu nickname">
+      <p>Nombre</p>
+      <input type="text" name="name" value="" placeholder="Escribe tu nombre">
+      <p>Apellido</p>
+      <input type="text" name="lastname" value="" placeholder="Escribe tu apellido">
+      <p>Correo Electrónico</p>
+      <input  type="email" placeholder="Correo electronico" class="validate"  id="txtEmailRegistration">
+      <p>Contraseña</p>
+      <input type="password" name="password" value="" placeholder="Escribe tu contraseña" id="txtPasswordRegistration">
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat" id="btnSignUp">Registrarme</a>
+    </div>
+  </div>
+  </section>
   <!-- termino de los Modales-->
   <!-- PRIMERA SECCION En este seccion va nuestra top five d epeliculas y la votacion vigente-->
   <section id="firstSection">
@@ -71,19 +93,26 @@
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
       </a>
-      <a class="carousel-item" href="#two!"><img src="assets/images/imageContenido1.jpg">
+      <a class="carousel-item" href="#two!"><img src="assets/images/imageContenido2.jpg">
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
       </a>
-      <a class="carousel-item" href="#three!"><img src="assets/images/imageContenido1.jpg">
+      <a class="carousel-item" href="#three!"><img src="assets/images/imageContenido3.jpg">
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
       </a>
-      <a class="carousel-item" href="#four!"><img src="assets/images/imageContenido1.jpg">
+      <a class="carousel-item" href="#four!"><img src="assets/images/imageContenido4.jpg">
+        <i class="material-icons iconStar">star</i>
+        <i class="material-icons iconStar">star</i>
+        <i class="material-icons iconStar">star</i>
+        <i class="material-icons iconStar">star</i>
+      </a>
+      <a class="carousel-item" href="#four!"><img src="assets/images/imageContenido5.jpg">
+        <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
         <i class="material-icons iconStar">star</i>
@@ -92,14 +121,14 @@
     </div>
     <div class="col s12 m6 l6">
       <div class="row">
-        <h2 class="hide-on-large-only" id="titleMobile" >Ingresa y vota por tu favorita</h2>
+        <h5 class="hide-on-large-only" id="titleMobile" >Ingresa y vota por tu favorita</h5>
         <div class="col s6 m5 l5">
-          <img src="assets/images/imageContenido2.jpg">
-          <h5 class="punctuation">78% votos</h5>
+          <img src="assets/images/imageVote.jpg">
+          <h5 class="punctuation">12% votos</h5>
         </div>
         <div class="col s6 m5 l5">
-          <img src="assets/images/imageContenido2.jpg">
-          <h5 class="punctuation">22% votos</h5>
+          <img src="assets/images/imageVote2.jpg">
+          <h5 class="punctuation">88% votos</h5>
         </div>
       </div>
     </div>
@@ -112,15 +141,15 @@
       <div class="col s6 m12 l12 hide-on-small-only" id="infomationMovie">
         <div class="row">
           <div id="informationBox1">
-            <h2>Hey! Que Vemos?</h2>
-            <h3>La nueva App que te permite</h3>
-            <p> Ver tus peliculas favoritas a ti y tus amigos.</p>
-            <p> Crear tu grupo de amigos para seguerir tus pelicilas favoritas.</p>
-            <p>Ubicacion de los sitios donde proyectamos las peliculas ganadoras.</p>
-            <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
-            <p>Ver los trailers de tus peliculas favoritas.</p>
-            <p>Sumar puntos y canjearlos por fabulosos premios.</p>
-            <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a> y únete a la comunidad de expertos !
+              <h2>Hey! Que Vemos?</h2>
+              <h3>La nueva App que te permite:</h3>
+              <p> Ver tus películas favoritas con tus amigos.</p>
+              <p> Crear tu grupo de amigos para seguerir y comentar tus películas y seriesfavoritas.</p>
+              <p>Ubicación de los sitios donde proyectamos las películas ganadoras.</p>
+              <p>Buscar tus películas y series favoritas para ver información de interés.</p>
+              <p>Ver los trailers de tus películas y series favoritas.</p>
+              <p>Acumular puntos y canjearlos por fabulosos premios.</p>
+            <a class="waves-effect waves-light btn modal-trigger" href="#modalRegister" id="btnBox1">Registrate</a> y únete a la comunidad de expertos !
           </div>
         </div>
       </div>
@@ -128,32 +157,52 @@
     <div class="row hide-on-large-only">
       <div id="informationBox2">
         <h2>Hey! Que Vemos?</h2>
-        <h3>La nueva App que te permite</h3>
-        <p> Ver tus peliculas favoritas a ti y tus amigos.</p>
-        <p> Crear tu grupo de amigos para seguerir tus pelicilas favoritas.</p>
-        <p>Ubicacion de los sitios donde proyectamos las peliculas ganadoras.</p>
-        <p>Buscar tus peliculas favoritas y ver informacion de interes.</p>
-        <p>Ver los trailers de tus peliculas favoritas.</p>
-        <p>Sumar puntos y canjearlos por fabulosos premios.</p>
-        <a class="waves-effect waves-light btn" id="btnBox1">Registrate</a> y únete a la comunidad de expertos !
+        <h3>La nueva App que te permite:</h3>
+        <p> Ver tus películas favoritas con tus amigos.</p>
+        <p> Crear tu grupo de amigos para seguerir y comentar tus películas y series favoritas.</p>
+        <p>Ubicación de los sitios donde proyectamos las películas ganadoras.</p>
+        <p>Buscar tus películas y series favoritas para ver información de interés.</p>
+        <p>Ver los trailers de tus películas y series favoritas.</p>
+        <p>Acumular puntos y canjearlos por fabulosos premios.</p>
+        <a class="waves-effect waves-light btn" id="btnBox1">Regístrate</a> y únete a la comunidad de expertos !
       </div>
     </div>
   </section>
   <!-- TERCERA SECCION En este seccion va el nuestro experto en movies ganador, el mapa-->
   <section id="thirdSection">
     <div class="row">
-      <div class="col s12 m4 l4"></div>
-      <div class="col s12 m4 l4"></div>
       <div class="col s12 m4 l4">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.170086624597!2d-70.60383335!3d-33.422135749999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512506818252" width="100%" height="300vh" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe width="480" height="300" src="https://www.youtube.com/embed/htwlR51npL4" frameborder="0"  allowfullscreen></iframe>
+        <h6 class="titleVideo">Para ver mas trailers regístrate</h6>
+      </div>
+      <div class="col s12 m4 l4">
+        <h5 class="titleNextPremier">Próximos estrenos</h5>
+        <div class="row">
+          <div class="col s6 m6 l6">
+            <img src="assets/images/liam.jpg" id="nextPremierMovie" class="imagen">
+            <h6 class="titleNextPremier">Películas</h6>
+          </div>
+          <div class="col s6 m6 l6">
+            <img src="assets/images/game.jpg" id="nextPremierSerie">
+            <h6 class="titleNextPremier">Series</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d13320.170086624597!2d-70.60383335!3d-33.422135749999995!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1512506818252" width="100%" height="300vh" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
     </div>
   </section>
-  <section id="fourthSection">
-    <h1>hola</h1>
+  <!--Cuarta section, solo se vera cuando el usuario ingrese-->
+  <section id="fourthSection"> <!-- Aca debe ir la info del usuario que ingreso-->
     <button type="button" id="btnVolver"></button>
     <button type="button" id="btnSalir"></button>
   </section>
+  <section id="fifthSection"> <!-- Aca debe ir la info de las peliculas para que el usuario vote-->
+  </section>
+  <section id="sixthSection"> <!-- se  divide en tres partes, busqueda las peliculas y series, calendario de proyecciones, y posible chat -->
+  </section>
+ 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="assets/js/materialize.min.js"></script>
   <script src="assets/js/app.js"></script>
