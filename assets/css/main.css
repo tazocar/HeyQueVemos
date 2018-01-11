@@ -1,7 +1,6 @@
 /* estilos del nav*/  
 .nav-wrapper {
-  background: linear-gradient(to bottom, rgb(235, 51, 14),#080809);
-  color:#FF5733;
+  background-color: #FF5733;
 }
 
 .user-avatar{
@@ -11,102 +10,151 @@
 /* Fin de los estilos del nava*/
 
 /* Estilos de la primera seccion*/
-
-#firstSection {
-  background-color: #000;  
+.clearMargin{
+  margin: 0;
 }
-
-#imageMobil {
-  width: 100%;
-  background-image: url("../images/d.jpg");
+#mobile-demo{
+  z-index: 3;
+}
+.row .col.s12{
+  padding: 0;
+}
+.nav-wrapper {
+  background-color: #FF5733;
+}
+.navTitle{
+  font-family: 'Kalam', cursive;
+}
+.sectionOneBG{
+  background:  linear-gradient(to bottom right, rgba(0, 0, 0, 0)40%, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 1)), url(../images/bgOne.jpg) no-repeat;
   background-size: cover;
-  height: 40em;
+  background-position: center;
+  height: 100vh;
 }
-
-.titleOne {
+.sectionOneBG h2{
   font-family: 'Heebo', sans-serif;
-  color: #fff;
-  margin-top: 5em;
-  text-align: center;
+  font-weight: 800;
+  font-size: 5em;
+  margin: 0;
+  line-height: 0.6em;
+  color: #FFF;
+  text-shadow: 3px 3px 3px black;
+  text-align: right;
 }
-
-.titleTwo {
+.sectionOneBG h4{
+  font-family: 'Kalam', cursive;
+  margin: 0;
+  font-size: 4em;
+  line-height: 0.8em;
+  color: #FF5733;
+  text-shadow: -1px -1px 3px black;
+  text-align: right;
+}
+.smallCall{
+  font-family: 'Kalam', cursive;
+}
+.sectionOneBG p{
+  background-color: black;
+  color: white;
+  padding: 2em;
+  margin-top: -1.3em;
+  font-size: 1.5em;
+}
+.sectionOneBG{
   font-family: 'Heebo', sans-serif;
-  color: #fff;
-  margin-top: 5em;
-  text-align: center;
 }
-
-.iconStar {
+.textSectionOne{
+}
+.containerTest {
+  display: flex; /* or inline-flex */
+  align-items: flex-end;
+}
+.img1{
+  background-image: url(../images/cont2.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: 50% 1%;
+}
+.img2{
+  background-image: url(../images/cont1.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-position: 50% 1%;
+}
+.titleSection{
+  padding: 1em;
+  background-color: #191b2d;
+}
+.titleSection h3{
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 4em;
+  color: white;
+}
+.titleSection span.favEffect{
+  font-family: 'Kalam', cursive;
+  color: #FF5733;
+  text-shadow: 2px 2px 3px black;
+  font-size: 1.2em;
+}
+footer{
+  background-color: #191b2d;
+  text-align: center;
+  padding: 5em;
+  color: #FFF;
+}
+footer p{
+  font-weight: lighter;
+}
+footer h4{
+  font-family: 'Heebo', sans-serif;
+  font-weight: 800;
+  margin: 0.5em;
+  font-size: 2.2em;
+  line-height: 0.8em;
+  text-shadow: 2px 2px 5px black;
+}
+footer h4.direction{
+  font-size: 1.8em;
+  text-decoration: underline;
+  text-decoration-color: #FF5733;
+}
+.social{
+  overflow: hidden;
+  margin: 2em 0 5em; ;
+  padding: 0;
+}
+.social li{
+  list-style: none;
+  display: inline-block;
+  margin-right:4px;
+}
+.social li a{
+  list-style: none;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  font-size: 1.2em;
+  line-height: 2.75em;
+  border-radius: 50%;
+  border:2px solid #FFF;
+  color: #FFF;
+  transition: all ease .6s;
+}
+.social li a:hover{
   color:#FF5733;
+  background: #FFF;
 }
-
-.carousel {
-margin-top: -7em;
-}
-
-.punctuation {
-  color: #fff;
-  text-align: center;
+.containerFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* termino de los estilos de la primera seccion*/
 
 /* Estilos de la segunda seccion*/
 
-#secondSection {
-  margin-top: -2em;
-}
-
-#infomationMovie {
-  width: 100%;
-  background-image: url("../images/imageContenido.jpg");
-  background-size: cover;
-  height: 37em;
-  color: #fff;
-}
-
-#infomationMovie2 {
-  width: 100%;
-  background-image: url("../images/imageContenido2.jpg");
-  background-size: cover;
-  height: 40em;
-  margin-top: 0;
-}
-
-#infomationMovie3 {
-  width: 100%;
-  background-image: url("../images/imageContenido2.jpg");
-  background-size: cover;
-  height: 40em;
-  margin-top: 0;
-}
-
-#informationBox1 {
-  width: 40em;
-  height: 35em;
-  background: linear-gradient(to bottom, rgb(235, 51, 14),#080809);
-  color: #fff;
-}
-
-#informationBox2 {
-  width: 100%;
-  height: 35em;
-  background: linear-gradient(to bottom, rgb(235, 51, 14),#080809);
-  margin-top: -2em;
-  color: #fff;
-}
-
-#btnBox1 {
-  background-color:rgb(235, 51, 14);
-  color: #fff;
-  margin-left: 2em;
-}
-
-#titleMobile {
-  text-align: center;
-  color: #fff;
-}
 
 /* termino de los estilos de la segunda seccion*/
 
@@ -135,16 +183,41 @@ height: 15em;
 margin-left: 2em;
 }
 
-.imagen:hover {-webkit-transform: rotate(360deg);transform: rotate(360deg);}
-
 #nextPremierSerie {
   width: 13em;
 }
 
-#nextPremierMovie {
-  padding-left: 1em;
-  height: 17em;
-  margin-left: 11px;
+.titleEstrenos {
+  text-align: center;
+  color: #fff;
+  font-family: 'Heebo', sans-serif;
+}
 
+#nextPremierMovie {
+  height: 29em;
+  width: 31em;
+  padding-left: 3em
+}
+
+.imageVote {
+  height: 7em;
+  box-shadow: 10px 10px 10px #191b2d;
+}
+
+#votationWeek {
+  background-color: #FF5733;
+}
+
+.DayWeek {
+  font-family: 'Heebo', sans-serif;
+  color: #fff;
+}
 /* termino de los estilos de la tercera seccion*/
+
+/* Estilos mapa*/
+
+#map {
+  width: 100%;
+  height: 80vh;
+}
 
