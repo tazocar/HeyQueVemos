@@ -194,6 +194,14 @@ firebase.auth().onAuthStateChanged(function(user) {
     /////// Fin MajoChat! ///////
   } else {
     console.log("not logged");
+    var btnCounter = document.getElementById('vote'); //variable primer boton
+    var btnSecndCounter = document.getElementById('vote2'); //primer contador
+    btnCounter.addEventListener('click',function(){
+     alert("Logueate para que tu voto cuente");
+   });
+   btnSecndCounter.addEventListener('click',function(){
+    alert("Logueate para que tu voto cuente");
+  });
   }
 });
 
