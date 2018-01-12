@@ -201,7 +201,7 @@ firebase.auth().onAuthStateChanged(function(user) {
    });
    btnSecndCounter.addEventListener('click',function(){
     alert("Logueate para que tu voto cuente");
-  });
+  }); 
   }
 });
 
@@ -383,12 +383,12 @@ $("#searchMovie").keyup( function(){
 })
 
 // Esconder Votos si cambias de película
-$(".voteOne").hover(function(){
-  $(".voteOneHover").toggle();
-})
-$(".voteTwo").hover(function(){
-  $(".voteTwoHover").toggle();
-})
+//$(".voteOne").hover(function(){
+ // $(".voteOneHover").toggle();
+//})
+//$(".voteTwo").hover(function(){
+ // $(".voteTwoHover").toggle();
+//})
 $(".voteOne").click(function(){
   $(".voteTwoHover").hide();
   $(".voteOneHover").show();
