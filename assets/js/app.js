@@ -197,10 +197,10 @@ firebase.auth().onAuthStateChanged(function(user) {
     var btnCounter = document.getElementById('vote'); //variable primer boton
     var btnSecndCounter = document.getElementById('vote2'); //primer contador
     btnCounter.addEventListener('click',function(){
-     alert("Logueate para que tu voto cuente");
+     alert("Logeate para que tu voto cuente");
    });
    btnSecndCounter.addEventListener('click',function(){
-    alert("Logueate para que tu voto cuente");
+    alert("Logeate para que tu voto cuente");
   }); 
   }
 });
@@ -359,7 +359,7 @@ $("#searchMovie").keyup( function(){
   var displayMovies = $("#displayMovies");
   $.ajax({
     type: 'GET',
-    url: 'http://www.omdbapi.com/?s=' + searching + '&apikey=3a181f1c',
+    url: 'https://www.omdbapi.com/?s=' + searching + '&apikey=b1870e1a',
     success: function(response) {
       if (!response.Error) {
         // console.log(response.Search)
