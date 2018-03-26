@@ -7,8 +7,8 @@
 Nuestro producto **"Hey!, que vemos?"** surge como una aplicación que permite la creación de experiencias para personas amantes de las películas y las actividades sociales.
 
 ## Vista Previa de la App:
-![](https://i.imgur.com/tQmXEnj.jpg) <br/>
 [Hey! QuéVemos?](https://tazocar.github.io/HeyQueVemos/)
+![](https://i.imgur.com/tQmXEnj.jpg) <br/>
 
 ### ¿Cómo se gestó la idea?
 
