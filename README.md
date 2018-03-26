@@ -17,11 +17,6 @@ Como amantes de las películas, decidimos que es un buen tema para incentivar al
 Hicimos un Daily inicial, en el cual comentamos cuales eran nuestras fortalezas y en qué áreas sentíamos mayor comodidad para iniciar el proyecto.
 Dividimos el área de investigación y desarrollo en 2 partes, UX y Front end, abarcando mejor las necesidades del usuario final y generando la opción de apoyarnos en nosotras mismas, como un equipo.
 
-![](IMG-20180110-WA0008.jpg)
-
-![](IMG-20180110-WA0007.jpg)
-
-
 ### Definición de tareas
 
 Definimos cómo invertiremos el tiempo de desarrollo del primer bloque y lo plasmamos en un cronograma diario.
@@ -46,5 +41,5 @@ Esperamos que para el plazo final, presentar un proyecto lo bastante completo co
 
 
 ## Vista Previa de la App:
-
-[Hey! QuéVemos?](https://github.com/LexisR/HeyQueVemos)
+![](https://i.imgur.com/tQmXEnj.jpg) <br/>
+[Hey! QuéVemos?](https://tazocar.github.io/HeyQueVemos/)
