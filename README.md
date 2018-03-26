@@ -6,6 +6,10 @@
 
 Nuestro producto **"Hey!, que vemos?"** surge como una aplicación que permite la creación de experiencias para personas amantes de las películas y las actividades sociales.
 
+## Vista Previa de la App:
+![](https://i.imgur.com/tQmXEnj.jpg) <br/>
+[Hey! QuéVemos?](https://tazocar.github.io/HeyQueVemos/)
+
 ### ¿Cómo se gestó la idea?
 
 Debatimos sobre cuáles son las aplicaciones actuales existentes relacionadas a las películas, qué tipo de ventajas y desventajas poseen, a su vez, analizamos qué necesidades -aún no cubiertas-, relacionadas a este tema podrían ser abordadas.
@@ -38,8 +42,3 @@ Definimos cómo invertiremos el tiempo de desarrollo del primer bloque y lo plas
 ### Objetivos que esperamos cumplir
 
 Esperamos que para el plazo final, presentar un proyecto lo bastante completo como para representar en su totalidad nuestra idea inicial. Que sea funcional, atractivo y de fácil entendimiento.
-
-
-## Vista Previa de la App:
-![](https://i.imgur.com/tQmXEnj.jpg) <br/>
-[Hey! QuéVemos?](https://tazocar.github.io/HeyQueVemos/)
