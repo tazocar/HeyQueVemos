@@ -8,7 +8,8 @@ Nuestro producto **"Hey!, que vemos?"** surge como una aplicación que permite l
 
 ## Vista Previa de la App:
 [Hey! QuéVemos?](https://tazocar.github.io/HeyQueVemos/)
-![](https://i.imgur.com/tQmXEnj.jpg) <br/>
+![image](https://i.imgur.com/FvCUei8.jpg)
+<br/>
 
 ### ¿Cómo se gestó la idea?
 
