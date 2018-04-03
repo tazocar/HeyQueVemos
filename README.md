@@ -1,4 +1,4 @@
-# "Hey Que vemos"
+# Hey Que vemos
 
 ## Sobre el Producto:
 
@@ -7,7 +7,7 @@
 Nuestro producto **"Hey!, que vemos?"** surge como una aplicación que permite la creación de experiencias para personas amantes de las películas y las actividades sociales.
 
 ## Vista Previa de la App:
-[Hey! QuéVemos?](https://tazocar.github.io/HeyQueVemos/)
+[Hey! QueVemos?](https://tazocar.github.io/HeyQueVemos/)
 ![image](https://i.imgur.com/FvCUei8.jpg)
 <br/>
 
