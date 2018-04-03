@@ -43,3 +43,5 @@ Definimos cómo invertiremos el tiempo de desarrollo del primer bloque y lo plas
 ### Objetivos que esperamos cumplir
 
 Esperamos que para el plazo final, presentar un proyecto lo bastante completo como para representar en su totalidad nuestra idea inicial. Que sea funcional, atractivo y de fácil entendimiento.
+
+## Desarrollado para [Laboratoria](http://www.laboratoria.la)
