@@ -1,4 +1,4 @@
-# "Hey! ¿Que vemos?"
+# "Hey Que vemos"
 
 ## Sobre el Producto:
 
